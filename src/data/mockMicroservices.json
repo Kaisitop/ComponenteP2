@@ -28,6 +28,15 @@
     "memory": 800,
     "latency": 120,
     "alerts": ["Uso elevado de CPU"]
+  },
+  {
+    "id": 4,
+    "name": "Servicio Redes",
+    "type": "service",
+    "status": "online",
+    "cpu": 45,
+    "memory": 700,
+    "latency": 120,
+    "alerts": ["Uso elevado de CPU"]
   }
-  
 ]
