@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "name": "Sensor Temperatura",
+    "type": "sensor",
+    "status": "online",
+    "cpu": 15,
+    "memory": 120,
+    "latency": 50,
+    "alerts": []
+  },
+  {
+    "id": 2,
+    "name": "Actuador Ventilador",
+    "type": "actuator",
+    "status": "offline",
+    "cpu": 0,
+    "memory": 0,
+    "latency": 0,
+    "alerts": ["Desconectado"]
+  },
+  {
+    "id": 3,
+    "name": "Servicio Analítica",
+    "type": "service",
+    "status": "online",
+    "cpu": 45,
+    "memory": 800,
+    "latency": 120,
+    "alerts": ["Uso elevado de CPU"]
+  }
+  
+]
